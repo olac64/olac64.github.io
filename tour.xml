@@ -93,5 +93,167 @@
 
 	</scene>
 
+	<scene name="scene_SamRoiYot_2017-VR360_bureau" title="SamRoiYot_2017-VR360_bureau" onstart="" havevrimage="true" thumburl="panos/SamRoiYot_2017-VR360_bureau.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/SamRoiYot_2017-VR360_bureau.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" if="!webvr.isenabled">
+			<level tiledimagewidth="768" tiledimageheight="768">
+				<cube url="panos/SamRoiYot_2017-VR360_bureau.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<image if="webvr.isenabled">
+			<cube url="panos/SamRoiYot_2017-VR360_bureau.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_SamRoiYot_2017-VR360_chambre_1" title="SamRoiYot_2017-VR360_chambre 1" onstart="" havevrimage="true" thumburl="panos/SamRoiYot_2017-VR360_chambre_1.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/SamRoiYot_2017-VR360_chambre_1.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" if="!webvr.isenabled">
+			<level tiledimagewidth="768" tiledimageheight="768">
+				<cube url="panos/SamRoiYot_2017-VR360_chambre_1.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<image if="webvr.isenabled">
+			<cube url="panos/SamRoiYot_2017-VR360_chambre_1.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_SamRoiYot_2017-VR360_cuisine" title="SamRoiYot_2017-VR360_cuisine" onstart="" havevrimage="true" thumburl="panos/SamRoiYot_2017-VR360_cuisine.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/SamRoiYot_2017-VR360_cuisine.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" if="!webvr.isenabled">
+			<level tiledimagewidth="768" tiledimageheight="768">
+				<cube url="panos/SamRoiYot_2017-VR360_cuisine.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<image if="webvr.isenabled">
+			<cube url="panos/SamRoiYot_2017-VR360_cuisine.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_SamRoiYot_2017-VR360_meditation" title="SamRoiYot_2017-VR360_meditation" onstart="" havevrimage="true" thumburl="panos/SamRoiYot_2017-VR360_meditation.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/SamRoiYot_2017-VR360_meditation.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" if="!webvr.isenabled">
+			<level tiledimagewidth="768" tiledimageheight="768">
+				<cube url="panos/SamRoiYot_2017-VR360_meditation.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<image if="webvr.isenabled">
+			<cube url="panos/SamRoiYot_2017-VR360_meditation.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_SamRoiYot_2017-VR360_patio_2" title="SamRoiYot_2017-VR360_patio 2" onstart="" havevrimage="true" thumburl="panos/SamRoiYot_2017-VR360_patio_2.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/SamRoiYot_2017-VR360_patio_2.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" if="!webvr.isenabled">
+			<level tiledimagewidth="768" tiledimageheight="768">
+				<cube url="panos/SamRoiYot_2017-VR360_patio_2.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<image if="webvr.isenabled">
+			<cube url="panos/SamRoiYot_2017-VR360_patio_2.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_SamRoiYot_2017-VR360_patio" title="SamRoiYot_2017-VR360_patio" onstart="" havevrimage="true" thumburl="panos/SamRoiYot_2017-VR360_patio.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/SamRoiYot_2017-VR360_patio.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" if="!webvr.isenabled">
+			<level tiledimagewidth="768" tiledimageheight="768">
+				<cube url="panos/SamRoiYot_2017-VR360_patio.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<image if="webvr.isenabled">
+			<cube url="panos/SamRoiYot_2017-VR360_patio.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_SamRoiYot_2017-VR360_sdb" title="SamRoiYot_2017-VR360_sdb" onstart="" havevrimage="true" thumburl="panos/SamRoiYot_2017-VR360_sdb.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/SamRoiYot_2017-VR360_sdb.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" if="!webvr.isenabled">
+			<level tiledimagewidth="768" tiledimageheight="768">
+				<cube url="panos/SamRoiYot_2017-VR360_sdb.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<image if="webvr.isenabled">
+			<cube url="panos/SamRoiYot_2017-VR360_sdb.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_SamRoiYot_2017-VR360_sdb2" title="SamRoiYot_2017-VR360_sdb2" onstart="" havevrimage="true" thumburl="panos/SamRoiYot_2017-VR360_sdb2.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/SamRoiYot_2017-VR360_sdb2.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" if="!webvr.isenabled">
+			<level tiledimagewidth="768" tiledimageheight="768">
+				<cube url="panos/SamRoiYot_2017-VR360_sdb2.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<image if="webvr.isenabled">
+			<cube url="panos/SamRoiYot_2017-VR360_sdb2.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_SamRoiYot_2017-VR360_terrasse" title="SamRoiYot_2017-VR360_terrasse" onstart="" havevrimage="true" thumburl="panos/SamRoiYot_2017-VR360_terrasse.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/SamRoiYot_2017-VR360_terrasse.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512" if="!webvr.isenabled">
+			<level tiledimagewidth="256" tiledimageheight="256">
+				<cube url="panos/SamRoiYot_2017-VR360_terrasse.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+		<image if="webvr.isenabled">
+			<cube url="panos/SamRoiYot_2017-VR360_terrasse.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
 
 </krpano>
